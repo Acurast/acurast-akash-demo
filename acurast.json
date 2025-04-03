@@ -11,7 +11,7 @@
       },
       "execution": {
         "type": "onetime",
-        "maxExecutionTimeInMs": 600000
+        "maxExecutionTimeInMs": 300000
       },
       "maxAllowedStartDelayInMs": 10000,
       "usageLimit": {
@@ -24,7 +24,8 @@
       "minProcessorReputation": 0,
       "maxCostPerExecution": 100000000000,
       "includeEnvironmentVariables": ["RPC_ENDPOINT", "MNEMONIC"],
-      "processorWhitelist": []
+      "processorWhitelist": [],
+      "restartPolicy": "no"
     }
   }
 }
