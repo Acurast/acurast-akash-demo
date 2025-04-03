@@ -1,0 +1,35 @@
+{
+  "name": "acurast-akash-demo",
+  "version": "1.0.0",
+  "description": "Acurast Akash Demo",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "tsc --watch",
+    "build": "webpack",
+    "start": "node dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@akashnetwork/akash-api": "^1.4.0",
+    "@akashnetwork/akashjs": "^0.10.1",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "@cosmjs/stargate": "^0.32.4",
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "copy-webpack-plugin": "^13.0.0",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}

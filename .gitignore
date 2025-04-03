@@ -1,0 +1,8 @@
+.env*
+node_modules
+build
+src/required-files/cert.json
+dist 
+
+# Acurast CLI
+.acurast
